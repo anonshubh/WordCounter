@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count</title>
+</head>
+<body></body>
+    <h1 style="color: red;">Your Context is: </h1>{{textis}}
+    <h2>And Number Of Words Are :{{ length }}</h2>
+    <h4 style="text-align: center;">Word Count<h4>
+    {% for word,count in wordcount%}
+
+    <h3>{{word}}:{{count}}<br></h3>
+
+    {% endfor %}
+   
+</body>
+</html>
